@@ -1,0 +1,497 @@
+body {
+	margin: 0;
+}
+.container {
+	padding: 39px 0 60px 0;
+}
+.line {
+	height: 8px;
+	width: 100%;
+	background-color: #a292b3;
+}
+.header .line {
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.textlogo {
+	margin-left: 10px;
+	text-transform: uppercase;
+	font-size: 39px;
+	font-family: SamoSans-Regular, sans-serif;
+	color: #ac9ebb;
+	vertical-align: -20%;
+}
+.navbar {
+	min-height: 0px !important;
+	border: 0 !important;;
+}
+ul {
+	list-style: none;
+	position: absolute;
+	top: -45px;
+	right: 0;
+}
+ul li {
+	display: inline;
+	padding-right: 66px;
+}
+ul li:last-child {
+	padding-right: 0;
+}
+ul li a{
+	color: #545454;
+	font-size: 19px;
+	font-family: Segoe, sans-serif;
+	text-transform: capitalize;
+	padding: 0 !important; 
+}
+.liText {
+	padding-left: 3px;
+}
+.banner {
+	margin-top: 28px;
+	position: relative;
+}
+.banner .mainImage {
+	width: 100%;
+}
+.banner p {
+	/* font-family: StRydeRegular; */
+	font-family: 'Quicksand', sans-serif;
+	font-style: normal;
+	position: absolute;
+}
+.bannerTitle {
+	font-size: 117px;
+	top: 25%;
+	left: 36%;
+	z-index: 1;
+	color: white;
+	font-weight: 400;
+}
+.bannerTitle2 {
+	font-size: 117px;
+	top: 25.9%;
+	left: 36.3%;
+	color: #2a2a3b;
+	font-weight: 400;
+}
+.bannerText {
+	font-size: 31px;
+	color: white;
+	top: 54.5%;
+	width: 100%;
+	text-align: center;	
+	font-weight: 200;
+	z-index: 1;
+}
+.bannerText2 {
+	font-size: 31px;
+	color: #2a2a3b;
+	top: 55%;
+	width: 100%;
+	text-align: center;	
+	font-weight: 200;
+}
+.arrow {
+	position: absolute;
+	top: 42.5%;
+}
+.arrowReverse {
+	transform: scale(-1, 1);
+	right: -1.4%;
+	right: 0;
+}
+hr {
+	border-top: 1px solid #bfbfbf !important;
+	margin-top: 38px !important;
+	margin-left: 11px;
+	margin-right: -8px;
+	margin-bottom: 10px !important;
+}
+.textPart .text {
+	font-size: 24px;
+	font-family: SegoeUIItalic, sans-serif;
+	line-height: 1.5;
+	text-align: center;
+	font-weight: 400;
+	padding: 0px 7%;
+}
+.textPart .text span{
+	color: #82699d;
+	font-weight: bold;
+}
+hr:last-child {
+	margin-top: 15px !important;
+}
+.mainContent {
+	position: relative;
+}
+.mainContent .circle {
+	margin-top: 20px;
+	margin-left: 24px;
+	float: left;
+	margin-right: 40px;
+}
+.mainText {
+	padding-top: 4.2%;
+	font-family: "SegoeUIRegular", sans-serif;
+}
+.mainText h2 {
+	font-size: 31px;
+	font-family: "SegoeUIBold", sans-serif;
+}
+.mainText p {
+	font-size: 15px;
+	line-height: 28px;
+    margin: 20.5px 0 10px 5px;
+    color: #838383;
+}
+.mainText .readMore {
+	font-size: 13px;
+	font-family: SegoeUIItalic, sans-serif;
+	color: #82699d;
+	position: absolute;
+	bottom: -12.55%;
+	right: -1.05%;
+}
+.clients {
+	clear: both;
+	margin-top: 6.35%;
+}
+.clientsText {
+	text-transform: capitalize;
+	font-family: "SegoeUIRegular", sans-serif;
+	font-size: 23px;
+	padding-top: 4px;
+}
+.clients span {
+	font-family: "SegoeUIBold", sans-serif !important;
+}
+.wrap {
+	display: flex;
+	align-items: center;
+	position: relative;
+}
+.dottedLine {
+	border: 1px dotted #e2e2e2;
+	width: 72.6%;
+	display: flex;
+	margin-left: 28.6%;
+	position: absolute;
+}
+.dottedLine:nth-child(2) {
+	bottom: 51%;
+}
+.dottedLine:nth-child(3) {
+	bottom: 47%;
+}
+.dottedLine:nth-child(4) {
+	bottom: 43%;
+}
+.clientsPhoto {
+	float: left;
+	border: 1px solid #e4e4e4;
+	margin: 27px 0 0 0;
+	width: 25%;
+}
+.clientsPhotofirst {
+	padding: 18px 32px 19px 29px;
+}
+.clientsPhotoSecond {
+	padding: 16px 37px 16px 38px;
+}
+.clientsPhotoThird {
+	padding: 16px 30px 16px 37px;
+}
+.clientsPhotoFourth {
+	padding: 14px 44px 14px 40px;
+}
+.footer {
+	display: block;
+	background-color: #e6e6e6;
+	height: 68px;
+	width: 100%;
+	float: left;
+}
+.footer .container {
+	padding: 0 15px;
+}
+.footer span {
+	/* margin-left: 140px; */
+	margin-top: 17px;
+	font-family: SegoeUI;
+	font-size: 15px;
+	font-weight: 300;
+	line-height: 2.4;
+	letter-spacing: normal;
+	color: #454242;
+	display: inline-block;
+}
+.footer .social {
+	float: right;
+	/* margin-right: 141px; */
+}
+.footer .social img{
+	margin-left: 22px;
+	margin-top: 19px;
+}
+.line2 {
+	float: left;
+}
+@media (max-width: 1199px) {
+	.bannerTitle2, .bannerTitle {
+		font-size: 105px;
+	}
+
+	.mainContent .circle {
+	    width: 30%;
+	}
+	.mainText {
+    	padding-top: 3.2%;
+    }
+    .dottedLine {
+	    width: 66.6%;
+	    margin-left: 34.6%;
+	}
+}
+@media (min-width: 766px) and (max-width: 990px) {
+	ul li {
+	   padding-right: 20px;
+	}
+	.bannerTitle2, .bannerTitle {
+	    font-size: 91px;
+	}
+	.bannerTitle2 {
+	    top: 24.9%;
+	}
+	.bannerTitle {
+	    top: 24%;
+	}
+
+	.bannerText {
+	    font-size: 27px;
+	    top: 56.5%;
+	}
+	.bannerText2 {
+	    font-size: 27px;
+	    color: #2a2a3b;
+	    top: 57%;
+	}
+	.dottedLine {
+	    width: 57.6%;
+	    margin-left: 43.6%;
+	}
+	.clientsPhotofirst {
+	    padding: 16px 32px 17px 29px;
+	}
+	.clientsPhotoFourth {
+	    padding: 15px 44px 15px 40px;
+	}
+	.clientsPhotoThird {
+	    padding: 15px 30px 16px 37px;
+	}
+}
+@media (max-width: 766px) {
+	.container {
+	    width: 90%;
+	}
+	.navbar {
+		position: absolute;
+		top: 10%;
+		right: 3%;
+	}
+	.navbar-nav {
+		width: 135px;
+		margin: 21.5px 59px;
+	}
+	ul li {
+	    padding-right: 0;
+	}
+	.clientsPhoto {
+		width: 46%;
+		margin: 20px 10px 0;
+		float: none;
+	}
+	.arrow {
+	    top: 37.5%;
+	    width: 5%;
+	}
+	.bannerTitle2, .bannerTitle {
+	    font-size: 10vmax;
+	}
+	.bannerTitle {
+	    top: 23%;
+	}
+	.bannerTitle2 {
+	    top: 23.9%;
+	}
+	.bannerText, .bannerText2 {
+	    font-size: 3.5vmax;
+	}
+	.bannerText {
+	    top: 56.5%;
+	}
+	.bannerText2 {
+	    top: 57%;
+	}
+	.dottedLine {
+	    display: none;
+	}
+	.textPart .text {
+	    font-size: 22px;
+	    line-height: 1.3;
+	}
+	.mainText .readMore {
+	    bottom: -8.55%;
+	}
+	.textPart .text {
+	    font-size: 3.3vmax;
+	}
+} 
+@media (max-width: 600px) {
+	.navbar {
+    	top: 8%;
+	}
+	.mainText {
+	    padding-top: 1.2%;
+	}
+	.mainText p {
+	    line-height: 24px;
+	}
+	.mainText h2 {
+	    font-size: 5.3vmax;
+	}
+	.clientsPhoto {
+	    margin: 20px 5px 0;
+	}
+}
+@media (max-width: 500px) {
+	.container {
+    	padding: 39px 0 40px 0;
+	}
+	.clientsPhotofirst {
+    	padding: 15px 27px 15px 22px;
+	}
+	.clientsPhotoSecond {
+    	padding: 13px 29px 14px 31px;
+	}
+	.clientsPhotoThird {
+	    padding: 14px 25px 15px 24px;
+	}
+	.clientsPhotoFourth {
+	   padding: 14px 31px 15px 31px;
+	}
+	.textlogo {
+	    margin-left: 5px;
+	    text-transform: uppercase;
+	    font-size: 33px;
+	}
+	.navbar-nav {
+	    width: 113px;
+	    margin: 29.5px 59px;
+	}
+	ul li a {
+    	color: #545454;
+    	font-size: 16px;
+	}
+	.mainContent .circle {
+	    margin-right: 20px;
+	}
+/*}
+ 
+	.container {
+    	padding: 39px 0 30px 0;
+	} */
+	.footer .social img {
+	    margin-left: 5px;
+	}
+	.bannerTitle2, .bannerTitle {
+	    font-size: 8vmax;
+	}
+	.bannerTitle {
+	    top: 21%;
+	}
+	.bannerTitle2 {
+	    top: 21.9%;
+	}
+	.bannerText, .bannerText2 {
+    	font-size: 3vmax;
+	}
+	.textPart {
+		margin-top: -19px;
+	}
+	.mainContent {
+	    margin-top: -19px;
+	}
+}
+@media (max-width: 400px) {
+	.mainText h2 {
+		font-size: 4.5vmax;
+	}
+	.footer .container {
+	    padding: 0px 5px;
+	}
+	.footer .social img {
+	    margin-left: 0px;
+	}
+	.logo {
+		width: 17%;
+	}
+	.textlogo {
+	    margin-left: 2px;
+	    text-transform: uppercase;
+	    font-size: 26px;
+	    vertical-align: -15%;
+	}
+	.bannerText, .bannerText2 {
+	    font-size: 3vmax;
+	    line-height: 19px;
+	}
+	.bannerText {
+	    top: 56.5%;
+	}
+	.bannerText2 {
+	    top: 56%;
+	}
+	.bannerTitle {
+	    top: 14%;
+	}
+	.bannerTitle2 {
+	    top: 14.9%;
+	}
+}
+
+
+
+
+
+
+@font-face {
+	font-family: "SegoeUIItalic";
+	src: url("SegoeUIItalic/SegoeUIItalic.eot");
+	src: url("SegoeUIItalic/SegoeUIItalic.eot?#iefix")format("embedded-opentype"),
+	url("SegoeUIItalic/SegoeUIItalic.woff") format("woff"),
+	url("SegoeUIItalic/SegoeUIItalic.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "SegoeUIRegular";
+	src: url("SegoeUIRegular/SegoeUIRegular.eot");
+	src: url("SegoeUIRegular/SegoeUIRegular.eot?#iefix")format("embedded-opentype"),
+	url("SegoeUIRegular/SegoeUIRegular.woff") format("woff"),
+	url("SegoeUIRegular/SegoeUIRegular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "SegoeUIBold";
+	src: url("SegoeUIBold/SegoeUIBold.eot");
+	src: url("SegoeUIBold/SegoeUIBold.eot?#iefix")format("embedded-opentype"),
+	url("SegoeUIBold/SegoeUIBold.woff") format("woff"),
+	url("SegoeUIBold/SegoeUIBold.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
